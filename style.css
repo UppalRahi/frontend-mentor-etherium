@@ -1,0 +1,87 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  font-style: none;
+  color: white;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+hr {
+  height: 1px;
+  background-color: #2a3d55;
+  border: none;
+}
+body {
+  background: #0b192c;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.card {
+  background: #15263f;
+  max-width: 17rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 0.625rem;
+  color: #8297b4;
+}
+
+.img-eth {
+  border-radius: 0.625rem;
+  position: relative;
+}
+.eyecon {
+  position: absolute;
+  opacity: 0;
+  padding: 119px;
+  position: absolute;
+  top: 50%;
+  transform: translatey(-16rem);
+}
+.eyecon:hover{
+  opacity: 1;
+}
+.img-eth:hover {
+  opacity: 0.5;
+  transition: 0.7s ease-in-out;
+}
+
+.h1 {
+  color: white;
+}
+.Ether {
+  color: #0cf6f4;
+  display: inline-block;
+  margin-right: 4px;
+}
+.time {
+  display: inline-block;
+  margin-left: 6rem;
+}
+.testy {
+  color: #91aaca;
+}
+.testy .Name-me {
+  color: white;
+  font-weight: 800;
+}
+
+.h1:hover,
+.Name-me:hover {
+  color: #19fdfb;
+}
+.prof {
+  width: 2rem;
+  margin-right: 10px;
+  border: 1px solid white;
+  border-radius: 2rem;
+  transform: translateY(0.6rem);
+}
+.prof:hover {
+  border: 1px solid gold;
+  border-radius: 2rem;
+}
